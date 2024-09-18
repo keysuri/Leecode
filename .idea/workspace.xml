@@ -19,10 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/18动态规划">
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240918_[343]整数拆分.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240918_[343]整数拆分.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240918_[96]不同的二叉搜索树.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240918_[96]不同的二叉搜索树.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,7 @@
       <workItem from="1726640567310" duration="1949000" />
       <workItem from="1726642535316" duration="5577000" />
       <workItem from="1726648259122" duration="5570000" />
-      <workItem from="1726663118268" duration="1000" />
+      <workItem from="1726663118268" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -296,7 +296,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726647846921</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="24/09/18动态规划">
+      <option name="closed" value="true" />
+      <created>1726663162441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663162441</updated>
+    </task>
+    <task id="LOCAL-00015" summary="24/09/18动态规划">
+      <option name="closed" value="true" />
+      <created>1726663252970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663252970</updated>
+    </task>
+    <task id="LOCAL-00016" summary="24/09/18动态规划">
+      <option name="closed" value="true" />
+      <created>1726663398939</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663398939</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +357,8 @@
     <MESSAGE value="24/09/14贪心，区间问题，排序就行" />
     <MESSAGE value="24/09/16动态规划" />
     <MESSAGE value="24/09/18动态规划 更改模板+重命名文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/09/18动态规划 更改模板+重命名文件" />
+    <MESSAGE value="24/09/18动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/09/18动态规划" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
