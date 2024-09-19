@@ -37,7 +37,7 @@ public:
         vector<int> dp(n + 1);
         dp[2] = 1;
         for (int i = 3; i <= n; i ++) {
-            for (int j = 1; j <= i / 2; j ++) {
+            for (int j = 1; j <= i / 2; j ++) {  //j看做是i拆分的第一个数
                 dp[i] = max(dp[i], max(j * (i - j), j * dp[i - j]));
             }
         }
