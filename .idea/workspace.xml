@@ -18,17 +18,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/18动态规划">
-      <change afterPath="$PROJECT_DIR$/code/240919_01背包(滚动数组).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/240919_01背包.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240919_[1049]最后一块石头的重量 II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240919_[416]分割等和子集.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240919_[1049]最后一块石头的重量 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240919_[416]分割等和子集.md" afterDir="false" />
+    <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/19动态规划">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240920_[474]一和零.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240920_[494]目标和.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240920_[474]一和零.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240920_[494]目标和.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/240918_[343]整数拆分.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/240918_[343]整数拆分.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,36 +76,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "C/C++ File..executor": "Run",
-    "C/C++ File.240905_[93]复原 IP 地址.cpp.executor": "Run",
-    "C/C++ File.240918_[39]组合总和.cpp.executor": "Run",
-    "C/C++ File.240918_[77]组合.cpp.executor": "Run",
-    "C/C++ File.240919_01背包(滚动数组).cpp.executor": "Run",
-    "C/C++ File.240919_01背包.cpp.executor": "Run",
-    "C/C++ File.main.cpp.executor": "Run",
-    "CMake Application.Leecode.executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Language Plugins Notifications": "Recommended language plugin available",
-    "Notification.DoNotAsk-Language Plugins Notifications": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/CLionProjects/Leecode/code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File..executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240905_[93]复原 IP 地址.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240918_[39]组合总和.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240918_[77]组合.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240919_01背包(滚动数组).cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240919_01背包.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Leecode.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Language Plugins Notifications&quot;: &quot;Recommended language plugin available&quot;,
+    &quot;Notification.DoNotAsk-Language Plugins Notifications&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/CLionProjects/Leecode/code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\CLionProjects\Leecode\code" />
@@ -208,7 +205,9 @@
       <workItem from="1726642535316" duration="5577000" />
       <workItem from="1726648259122" duration="5570000" />
       <workItem from="1726663118268" duration="2204000" />
-      <workItem from="1726707879611" duration="13800000" />
+      <workItem from="1726707879611" duration="14504000" />
+      <workItem from="1726800041548" duration="1593000" />
+      <workItem from="1726812617889" duration="11551000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -346,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726665457268</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="24/09/19动态规划">
+      <option name="closed" value="true" />
+      <created>1726747660744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726747660744</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +391,8 @@
     <MESSAGE value="24/09/16动态规划" />
     <MESSAGE value="24/09/18动态规划 更改模板+重命名文件" />
     <MESSAGE value="24/09/18动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/09/18动态规划" />
+    <MESSAGE value="24/09/19动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/09/19动态规划" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
