@@ -19,13 +19,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/21动态规划，完全背包">
-      <change afterPath="$PROJECT_DIR$/code/240921_完全背包.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240921_[518]零钱兑换 II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240921_[518]零钱兑换 II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/240923_爬楼梯(进阶版).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240923_[322]零钱兑换.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240923_[377]组合总和 Ⅳ.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240923_[322]零钱兑换.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240923_[377]组合总和 Ⅳ.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/240920_[474]一和零.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/240920_[474]一和零.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
     &quot;C/C++ File.240919_01背包(滚动数组).cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.240919_01背包.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.240921_完全背包.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.240923_爬楼梯(进阶版).cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.Leecode.executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Language Plugins Notifications&quot;: &quot;Recommended language plugin available&quot;,
@@ -119,7 +121,7 @@
       <recent name="D:\Projects\CLionProjects\Leecode\code" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.240921_完全背包.cpp">
+  <component name="RunManager" selected="C/C++ File.240923_爬楼梯(进阶版).cpp">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -137,8 +139,26 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="240918_[77]组合.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[77]组合.cpp" CONFIG_NAME="240918_[77]组合.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[77]组合.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
       <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
+      <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包.cpp" CONFIG_NAME="240919_01背包.cpp">
+      <option name="sourceFile" value="code\240919_01背包.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -155,20 +175,33 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
+      <option name="sourceFile" value="code\240921_完全背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240923_爬楼梯(进阶版).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240923_爬楼梯(进阶版).cpp" CONFIG_NAME="240923_爬楼梯(进阶版).cpp">
+      <option name="sourceFile" value="code\240923_爬楼梯(进阶版).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ File.240918_[39]组合总和.cpp" />
+      <item itemvalue="C/C++ File.240923_爬楼梯(进阶版).cpp" />
       <item itemvalue="C/C++ File.240921_完全背包.cpp" />
       <item itemvalue="C/C++ File.240919_01背包(滚动数组).cpp" />
       <item itemvalue="C/C++ File.240919_01背包.cpp" />
-      <item itemvalue="C/C++ File.240918_[39]组合总和.cpp" />
       <item itemvalue="C/C++ File.240918_[77]组合.cpp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.240923_爬楼梯(进阶版).cpp" />
         <item itemvalue="C/C++ File.240921_完全背包.cpp" />
         <item itemvalue="C/C++ File.240919_01背包(滚动数组).cpp" />
         <item itemvalue="C/C++ File.240919_01背包.cpp" />
         <item itemvalue="C/C++ File.240918_[77]组合.cpp" />
-        <item itemvalue="C/C++ File.240918_[39]组合总和.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +243,9 @@
       <workItem from="1726800041548" duration="1593000" />
       <workItem from="1726812617889" duration="12426000" />
       <workItem from="1726880638025" duration="7991000" />
-      <workItem from="1727000332154" duration="2000" />
+      <workItem from="1727000332154" duration="2713000" />
+      <workItem from="1727054216269" duration="7547000" />
+      <workItem from="1727140499913" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -364,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726836282524</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="24/09/21动态规划，完全背包">
+      <option name="closed" value="true" />
+      <created>1727000718157</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727000718157</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +447,8 @@
     <MESSAGE value="24/09/18动态规划" />
     <MESSAGE value="24/09/19动态规划" />
     <MESSAGE value="24/09/20动态规划，0-1背包" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/09/20动态规划，0-1背包" />
+    <MESSAGE value="24/09/21动态规划，完全背包" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/09/21动态规划，完全背包" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
