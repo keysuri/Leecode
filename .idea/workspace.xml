@@ -18,14 +18,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/23动态规划，完全背包，求排列，先背包，后物品">
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240924_[139]单词拆分.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240924_[279]完全平方数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240924_[139]单词拆分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240924_[279]完全平方数.md" afterDir="false" />
+    <list default="true" id="809ee08b-fc4e-40cc-b482-c187fe22865c" name="Changes" comment="24/09/24动态规划，337树形DP">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240925_[121]买卖股票的最佳时机.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240925_[198]打家劫舍.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240925_[213]打家劫舍 II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/240925_[337]打家劫舍 III.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240925_[121]买卖股票的最佳时机.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240925_[198]打家劫舍.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240925_[213]打家劫舍 II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240925_[337]打家劫舍 III.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/240910_[122]买卖股票的最佳时机 II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/240910_[122]买卖股票的最佳时机 II.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/240924_[279]完全平方数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/240924_[279]完全平方数.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +109,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
     &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -121,9 +127,27 @@
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.240923_爬楼梯(进阶版).cpp">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240918_[39]组合总和.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[39]组合总和.cpp" CONFIG_NAME="240918_[39]组合总和.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[39]组合总和.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240918_[39]组合总和.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[39]组合总和.cpp" CONFIG_NAME="240918_[39]组合总和.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[39]组合总和.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240918_[39]组合总和.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[39]组合总和.cpp" CONFIG_NAME="240918_[39]组合总和.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[39]组合总和.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="240918_[39]组合总和.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[39]组合总和.cpp" CONFIG_NAME="240918_[39]组合总和.cpp">
@@ -144,6 +168,42 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="240918_[77]组合.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[77]组合.cpp" CONFIG_NAME="240918_[77]组合.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[77]组合.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240918_[77]组合.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[77]组合.cpp" CONFIG_NAME="240918_[77]组合.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[77]组合.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240918_[77]组合.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240918_[77]组合.cpp" CONFIG_NAME="240918_[77]组合.cpp">
+      <option name="sourceFile" value="leetcode\editor\cn\240918_[77]组合.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
+      <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
+      <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
+      <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="240919_01背包(滚动数组).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包(滚动数组).cpp" CONFIG_NAME="240919_01背包(滚动数组).cpp">
       <option name="sourceFile" value="code\240919_01背包(滚动数组).cpp" />
       <method v="2">
@@ -168,6 +228,24 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="240919_01背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包.cpp" CONFIG_NAME="240919_01背包.cpp">
+      <option name="sourceFile" value="code\240919_01背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包.cpp" CONFIG_NAME="240919_01背包.cpp">
+      <option name="sourceFile" value="code\240919_01背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240919_01背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240919_01背包.cpp" CONFIG_NAME="240919_01背包.cpp">
+      <option name="sourceFile" value="code\240919_01背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
       <option name="sourceFile" value="code\240921_完全背包.cpp" />
       <method v="2">
@@ -176,6 +254,42 @@
     </configuration>
     <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
       <option name="sourceFile" value="code\240921_完全背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
+      <option name="sourceFile" value="code\240921_完全背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
+      <option name="sourceFile" value="code\240921_完全背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240921_完全背包.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240921_完全背包.cpp" CONFIG_NAME="240921_完全背包.cpp">
+      <option name="sourceFile" value="code\240921_完全背包.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240923_爬楼梯(进阶版).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240923_爬楼梯(进阶版).cpp" CONFIG_NAME="240923_爬楼梯(进阶版).cpp">
+      <option name="sourceFile" value="code\240923_爬楼梯(进阶版).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240923_爬楼梯(进阶版).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240923_爬楼梯(进阶版).cpp" CONFIG_NAME="240923_爬楼梯(进阶版).cpp">
+      <option name="sourceFile" value="code\240923_爬楼梯(进阶版).cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="240923_爬楼梯(进阶版).cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leecode" TARGET_NAME="240923_爬楼梯(进阶版).cpp" CONFIG_NAME="240923_爬楼梯(进阶版).cpp">
+      <option name="sourceFile" value="code\240923_爬楼梯(进阶版).cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -244,7 +358,12 @@
       <workItem from="1726880638025" duration="7991000" />
       <workItem from="1727000332154" duration="2713000" />
       <workItem from="1727054216269" duration="7547000" />
-      <workItem from="1727140499913" duration="6910000" />
+      <workItem from="1727140499913" duration="7535000" />
+      <workItem from="1727228902305" duration="5387000" />
+      <workItem from="1727244566235" duration="4127000" />
+      <workItem from="1727249433217" duration="212000" />
+      <workItem from="1727249650176" duration="409000" />
+      <workItem from="1727250081895" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -422,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727140937475</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="24/09/24动态规划">
+      <option name="closed" value="true" />
+      <created>1727180199138</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727180199138</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +592,8 @@
     <MESSAGE value="24/09/21动态规划，完全背包" />
     <MESSAGE value="24/09/23动态规划，完全背包" />
     <MESSAGE value="24/09/23动态规划，完全背包，求排列，先背包，后物品" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/09/23动态规划，完全背包，求排列，先背包，后物品" />
+    <MESSAGE value="24/09/24动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/09/24动态规划" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

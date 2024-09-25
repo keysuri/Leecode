@@ -38,6 +38,7 @@ public:
         int size = sqrt(n);
         int max = n + 1;
         vector<int> dp(n + 1, max);
+        //dp[j]：和为j的完全平方数的最少数量为dp[j]
         dp[0] = 0;
         for (int i = 0; i <= size; i ++) {
             for (int j = 1; j <= n; j ++) {

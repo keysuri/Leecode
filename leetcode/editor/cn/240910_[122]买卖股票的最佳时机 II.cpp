@@ -47,12 +47,18 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        //不考虑区间，只取整利润
-        int profit = 0;
+        //动规
+        vector<vector<int>> dp(prices.size(), vector<int>(2));
+        //dp[i][0]表示第i天持有股票的利润，dp[i][1]表示第i天不持股票的利润
+        //持有股票，有两种情况，1.之前某一天持的，2.当天持的
+        //不持有股票，有三种情况，1.一直没持 2.持过卖过 3.之前持过，第i天卖了
+        dp[0][0] = -prices[0];
+        dp[0][1] = 0;
         for (int i = 1; i < prices.size(); i ++) {
-            profit += max(prices[i] - prices[i - 1], 0);
+            dp[i][0] = max(dp[i - 1][0], dp[i - 1][1] - prices[i]); //唯一与240925_[121]买卖股票的最佳时机不同处
+            dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
         }
-        return profit;
+        return dp[prices.size() - 1][1]; //不持的利润一定比持的利润高
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
@@ -72,6 +78,18 @@ public:
             }
         }
         if (cost != -1) profit += prices[prices.size() - 1] - cost; //因为循环只到倒数第二个数，存在最后一个数是峰点情况
+        return profit;
+    }
+};
+class Solution2 {
+public:
+    int maxProfit(vector<int>& prices) {
+        //贪心
+        //不考虑区间，只取整利润
+        int profit = 0;
+        for (int i = 1; i < prices.size(); i ++) {
+            profit += max(prices[i] - prices[i - 1], 0);
+        }
         return profit;
     }
 };
