@@ -553,6 +553,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/240926_[123]买卖股票的最佳时机 III.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240926_[123]买卖股票的最佳时机 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn123" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/240926_[123]买卖股票的最佳时机 III.cpp" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/240926_[188]买卖股票的最佳时机 IV.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240926_[188]买卖股票的最佳时机 IV.md" />
+              <option name="frontendQuestionId" value="leetcode.cn188" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/240926_[188]买卖股票的最佳时机 IV.cpp" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-iv" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/240926_[309]买卖股票的最佳时机含冷冻期.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240926_[309]买卖股票的最佳时机含冷冻期.md" />
+              <option name="frontendQuestionId" value="leetcode.cn309" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/240926_[309]买卖股票的最佳时机含冷冻期.cpp" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-cooldown" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/240926_[714]买卖股票的最佳时机含手续费.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/240926_[714]买卖股票的最佳时机含手续费.md" />
+              <option name="frontendQuestionId" value="leetcode.cn714" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/240926_[714]买卖股票的最佳时机含手续费.cpp" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-transaction-fee" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
