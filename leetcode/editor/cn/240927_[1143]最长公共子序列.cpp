@@ -52,7 +52,7 @@ class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
         vector<vector<int>> dp(text1.size() + 1, vector<int>(text2.size() + 1, 0));
-        //dp[i][j] 长度为[0, i - 1]的字符串text1与长度为[0, j - 1]的字符串text2的最长公共子序列为dp[i][j]
+        //dp[i][j] 长度为[0, i - 1]的字符串text1与长度为[0, j - 1]的字符串text2的最长公共子序列为dp[i][j]  （区间内，text1不一定以i-1结尾）
         //避免了初始化操作
         for (int i = 1; i <= text1.size(); i ++) {
             for (int j = 1; j <= text2.size(); j ++) {

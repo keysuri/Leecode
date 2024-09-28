@@ -47,7 +47,7 @@ class Solution {
 public:
     bool isSubsequence(string s, string t) {
         vector<vector<int>> dp(s.size() + 1, vector<int>(t.size() + 1, 0));
-        //以下标i-1为结尾的字符串s，和以下标j-1为结尾的字符串t，相同子序列的长度
+        //dp[i][j] [0, i - 1]的字符串text1与 [0, j - 1]的字符串text2的最长公共子串长度  （区间内，text1不一定以i-1结尾）
         for (int i = 1; i <= s.size(); i++) {
             for (int j = 1; j <= t.size(); j++) {
                 if (s[i - 1] == t[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1;

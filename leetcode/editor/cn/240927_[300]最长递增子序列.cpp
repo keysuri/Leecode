@@ -51,7 +51,7 @@ class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
         vector<int> dp(nums.size(), 1);
-        //dp[i]表示以i结尾的子序列最大长度
+        //dp[i]表示以i结尾的子序列最大长度   （非区间，以元素i结尾）
         for (int i = 1; i < nums.size(); i ++) {
             for (int j = 0; j < i; j ++) {
                 if (nums[j] < nums[i]) dp[i] = max(dp[i], dp[j] + 1); // max是为了取dp[j] + 1 的最大值

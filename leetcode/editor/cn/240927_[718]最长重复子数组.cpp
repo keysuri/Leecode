@@ -35,7 +35,7 @@ class Solution {
 public:
     int findLength(vector<int>& nums1, vector<int>& nums2) {
         vector<vector<int>> dp(nums1.size(), vector<int>(nums2.size(), 0));
-        //dp[i][j]：以下标i为结尾的A，和以下标j 为结尾的B，最长公共子数组长度
+        //dp[i][j]：以下标i为结尾的A，和以下标j 为结尾的B，最长公共子数组长度   （非区间，以元素i结尾）
         for (int j = 0; j < nums2.size(); j++) {
             if (nums1[0] == nums2[j]) dp[0][j] = 1;
         }

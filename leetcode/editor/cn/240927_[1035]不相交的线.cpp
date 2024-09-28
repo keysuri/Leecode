@@ -60,7 +60,7 @@ class Solution {
 public:
     int maxUncrossedLines(vector<int>& nums1, vector<int>& nums2) {
         //不相交 => 相同子序列
-        //即240927_[1143]最长公共子序列.cpp
+        //即240927_[1143]最长公共子序列.cpp   （区间内，text1不一定以i-1结尾）
         vector<vector<int>> dp(nums1.size() + 1, vector<int>(nums2.size() + 1, 0));
         for (int i = 1; i <= nums1.size(); i++) {
             for (int j = 1; j <= nums2.size(); j++) {
