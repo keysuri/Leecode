@@ -47,7 +47,23 @@ using namespace std;
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int max = INT32_MIN;
+        vector<int> dp(nums.size());
+        //dp[i] 以nums[i]为结尾的最大连续子序列和
+        dp[0] = nums[0];
+        int result = dp[0];
+        for (int i = 1; i < nums.size(); i ++) {
+            dp[i] = max(nums[i], nums[i] + dp[i - 1]);
+            result = max(result, dp[i]);
+        }
+        return result;
+    }
+};
+//leetcode submit region end(Prohibit modification and deletion)
+//贪心
+class Solution2 {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int max = INT_MIN;
         int sum = 0;
         for (int i = 0; i < nums.size(); i ++) {
             sum += nums[i];
@@ -57,7 +73,6 @@ public:
         return max;
     }
 };
-//leetcode submit region end(Prohibit modification and deletion)
 // 暴力解法，超时
 class Solution1 {
 public:
@@ -73,3 +88,8 @@ public:
         return max;
     }
 };
+int main() {
+    Solution solution;
+    vector<int> nums = {-2,1,-3,4,-1,2,1,-5,4};
+    cout << solution.maxSubArray(nums);
+}
