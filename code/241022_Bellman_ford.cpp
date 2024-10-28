@@ -12,6 +12,7 @@ int main1() {
     vector<int> minDist(n + 1, INT_MAX);
     minDist[1] = 0;
 
+    //松弛一次，minDist可能所有值都会变，但只有与起点1条边相连的节点 的最短距离 是最终值，其实相当于多松弛了
     //对所有边 松弛n-1次 得到 起点到达 与起点n-1条边相连的节点 的最短距离
     for (int i = 1; i < n; i++) {
         for (vector<int>& side : grid) {
